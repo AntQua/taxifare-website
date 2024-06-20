@@ -1,4 +1,4 @@
-# Taxi Fare Prediction Website
+# 🚕 Taxi Fare Prediction Website 🚖
 
 Welcome to the Taxi Fare Prediction website! This project was created as part of the Le Wagon Data Science bootcamp in Lisbon. The goal of the project is to build a web application that predicts taxi fares in New York City based on user inputs.
 
@@ -23,4 +23,4 @@ This project is an end-to-end web application that predicts taxi fares in New Yo
 - User-friendly web interface.
 - Deployed on Streamlit for easy access.
 
-Project Link: [https://github.com/AntQua/taxifare-website](https://github.com/AntQua/taxifare-website)
+Project Link: [https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/](https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/))
