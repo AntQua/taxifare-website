@@ -11,6 +11,13 @@ This project was developed as part of the Le Wagon data science bootcamp in Lisb
 - Frontend web development using Streamlit
 - API development and integration
 
+## Features
+
+- **User-friendly Interface:** Simple and intuitive form for entering ride details.
+- **Real-time Prediction:** Instant fare predictions based on user inputs.
+- **Interactive Map:** Visualize the pickup and dropoff locations on an interactive map.
+- **Mobile Friendly:** Fully responsive design that works on all devices.
+
 ## API
 
 The frontend is connected to a backend API that handles the fare prediction logic. The API is hosted in a separate repository. For more details, check out my [Taxi Fare API](https://github.com/AntQua/data-fast-api) repo on GitHub.
@@ -19,12 +26,15 @@ The frontend is connected to a backend API that handles the fare prediction logi
 
 - **`/predict`**: Returns a fare prediction based on the provided ride details.
 
+## Technologies Used
 
-## Features
+- **Python**: Core programming language.
+- **Streamlit**: For front-end development.
+- **Pandas**: Data manipulation and analysis.
+- **Scikit-learn**: Machine learning library for model building.
+- **Geopy**: For geographic calculations.
+- **Google Cloud**: For cloud storage of models and data.
+- **Docker**: For containerization.
 
-- **User-friendly Interface:** Simple and intuitive form for entering ride details.
-- **Real-time Prediction:** Instant fare predictions based on user inputs.
-- **Interactive Map:** Visualize the pickup and dropoff locations on an interactive map.
-- **Mobile Friendly:** Fully responsive design that works on all devices.
 
 Check out the live app here: [Taxi Fare Prediction App](https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/)
