@@ -23,4 +23,4 @@ This project is an end-to-end web application that predicts taxi fares in New Yo
 - User-friendly web interface.
 - Deployed on Streamlit for easy access.
 
-Project Link: [https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/](https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/))
+Project Link: [https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/](https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/)
