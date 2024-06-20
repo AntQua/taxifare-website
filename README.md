@@ -1,26 +1,30 @@
 # 🚕 Taxi Fare Prediction Website 🚖
 
-Welcome to the Taxi Fare Prediction website! This project was created as part of the Le Wagon Data Science bootcamp in Lisbon. The goal of the project is to build a web application that predicts taxi fares in New York City based on user inputs.
+## Overview
 
-## About the Project
+The Taxi Fare Prediction website allows users to predict the fare of a taxi ride in New York City. By entering details such as the pickup and dropoff locations, the time of day, and the number of passengers, users can get an estimated fare.
 
-This project is an end-to-end web application that predicts taxi fares in New York City. It utilizes machine learning models to provide fare predictions based on user input such as pick-up and drop-off locations, and the time of day. The project was created as an exercise during the Le Wagon Data Science bootcamp.
+This project was developed as part of the Le Wagon data science bootcamp in Lisbon and showcases various skills including:
 
-## Technologies Used
+- Data preprocessing and analysis
+- Machine learning model deployment
+- Frontend web development using Streamlit
+- API development and integration
 
-- **Python**: Core programming language.
-- **Streamlit**: For front-end development.
-- **Pandas**: Data manipulation and analysis.
-- **Scikit-learn**: Machine learning library for model building.
-- **Geopy**: For geographic calculations.
-- **Google Cloud**: For cloud storage of models and data.
-- **Docker**: For containerization.
+## API
+
+The frontend is connected to a backend API that handles the fare prediction logic. The API is hosted in a separate repository. For more details, check out my [Taxi Fare API](https://github.com/AntQua/data-fast-api) repo on GitHub.
+
+### API Endpoints
+
+- **`/predict`**: Returns a fare prediction based on the provided ride details.
+
 
 ## Features
 
-- Predict taxi fares based on pick-up and drop-off locations.
-- Input date and time to see how they affect fare prices.
-- User-friendly web interface.
-- Deployed on Streamlit for easy access.
+- **User-friendly Interface:** Simple and intuitive form for entering ride details.
+- **Real-time Prediction:** Instant fare predictions based on user inputs.
+- **Interactive Map:** Visualize the pickup and dropoff locations on an interactive map.
+- **Mobile Friendly:** Fully responsive design that works on all devices.
 
-Project Link: [https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/](https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/)
+Check out the live app here: [Taxi Fare Prediction App](https://taxifare-website-llbmp5dnginlumdf4rmbnf.streamlit.app/)
